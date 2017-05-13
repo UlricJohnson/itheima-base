@@ -1,0 +1,19 @@
+package com.itheima.q1;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/*
+	 * 获取指定数组arr中所有元素的平均数avg,并打印到控制台,返回元素为大于等于avg 的所有元素(元素间用逗号连接);
+	 */
+	public static String getNums(int[] arr) {
+		String string = "";
+		
+		return string;
+	}
+
+}

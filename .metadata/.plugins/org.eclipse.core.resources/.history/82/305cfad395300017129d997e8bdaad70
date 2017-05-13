@@ -1,0 +1,24 @@
+package com.itheima02;
+
+import java.io.FileReader;
+import java.io.IOException;
+
+/*
+ * public int read(char[] cbuf)
+ * ¶ÁÈ¡ÎÄ¼þ"myFr2.txt"
+ */
+
+public class FileReaderDemo2 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		FileReader fReader = new FileReader("myFr2.txt");
+
+		char[] chs = new char[1024];
+		int lenth;
+		while ((lenth = fReader.read(chs)) != -1) {
+			System.out.print(new String(chs, 0, lenth));
+		}
+	}
+
+}

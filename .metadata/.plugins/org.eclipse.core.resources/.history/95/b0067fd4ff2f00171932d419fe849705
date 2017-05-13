@@ -1,0 +1,13 @@
+package com.itheima.q2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Phone mzPhone=new Phone("MeiZu", 800);
+		Phone miPhone=new Phone("Mi", 750);
+		Phone iPhone=new Phone("iPhone", 5000);
+		Phone hwPhone=new Phone("HuaWei", 1000);
+	}
+
+}

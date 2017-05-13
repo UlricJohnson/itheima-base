@@ -1,0 +1,18 @@
+package com.itheima02;
+
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileReaderDemo {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		FileReader fReader=new FileReader("fr.txt");
+		
+		char ch;
+		while((ch=fReader.read())!=-1){
+			
+		}
+	}
+
+}

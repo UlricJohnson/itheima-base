@@ -1,0 +1,10 @@
+package com.itheima.test04;
+
+public class TestStudentTool {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

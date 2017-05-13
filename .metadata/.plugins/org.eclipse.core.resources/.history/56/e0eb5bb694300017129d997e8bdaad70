@@ -1,0 +1,16 @@
+package com.itheima02;
+
+import java.io.FileReader;
+
+/*
+ * ╤ах║нд╪Ч"fr2.txt"
+ */
+
+public class FileReaderDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileReader fReader=new FileReader("")
+	}
+
+}

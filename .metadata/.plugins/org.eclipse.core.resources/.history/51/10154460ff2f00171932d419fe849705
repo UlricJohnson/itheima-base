@@ -1,0 +1,9 @@
+package com.itheima.q2;
+
+public class Phone {
+
+	public Phone() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

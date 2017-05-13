@@ -1,0 +1,24 @@
+package com.itheima;
+
+/*
+ * 1. 分析以下需求，并用代码实现
+
+     (1).将e:\\a.txt复制到d:\\根目录下
+
+     (2).用多种方式实现复制
+
+       a.使用字符流单字符循环复制
+
+       b.使用字符流利用字符数组实现复制
+
+       c.使用高效字符缓冲流实现复制
+ */
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

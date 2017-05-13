@@ -1,0 +1,30 @@
+package com.itheima.q2;
+
+import java.util.ArrayList;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Cat> arrayList = new ArrayList<>();
+
+		arrayList.add(new Cat("Tom", 2));
+		arrayList.add(new Cat("¼Ó·Æ", 5));
+		arrayList.add(new Cat("Ð¡À¶", 8));
+
+	}
+
+	public static void delCat(ArrayList<Cat> list, int n) {
+		for (int i = 0; i < list.size(); i++) {
+			Cat cat = list.get(i);
+			if (cat.getAge() < n) {
+				list.remove(cat);
+				i--;
+			}
+		}
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getName() + "--" + list.get(i).getAge());
+		}
+	}
+
+}

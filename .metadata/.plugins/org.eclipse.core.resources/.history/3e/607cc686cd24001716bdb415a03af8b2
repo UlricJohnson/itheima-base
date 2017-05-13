@@ -1,0 +1,13 @@
+package com.itheima_03;
+
+/**
+ * 用for循环求和
+ * @author Ulric
+ *
+ */
+
+public class ForTest2 {
+	public static void main(String[] args) {
+		
+	}
+}

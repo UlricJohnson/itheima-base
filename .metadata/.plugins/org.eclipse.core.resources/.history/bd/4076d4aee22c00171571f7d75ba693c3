@@ -1,0 +1,23 @@
+package com.itheima.test04;
+
+public class TestStudentTool {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student[] students = new Student[5];
+
+		// for (int i = 0; i < students.length; i++) {
+		// students[i] = new Student();
+		// }
+
+		students[0] = new Student("Alan Turing", "43", 100);
+		students[1] = new Student("Ken Thompson", "74", 95);
+		students[2] = new Student("Linus Torvalds", "48", 92);
+		students[3] = new Student("Steve Jobs", "56", 90);
+		students[4] = new Student("Bill Gates", "62", 89);
+
+		TestStudentTool testStudentTool = new TestStudentTool();
+
+	}
+
+}

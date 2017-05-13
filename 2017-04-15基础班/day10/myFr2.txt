@@ -1,0 +1,2 @@
+my fr2.txt
+hello

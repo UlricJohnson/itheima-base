@@ -1,0 +1,10 @@
+package com.itheima05;
+
+public class CopyFileDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

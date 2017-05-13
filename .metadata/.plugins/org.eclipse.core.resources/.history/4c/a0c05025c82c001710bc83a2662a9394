@@ -1,0 +1,9 @@
+package com.itheima.test04;
+
+public class Student {
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

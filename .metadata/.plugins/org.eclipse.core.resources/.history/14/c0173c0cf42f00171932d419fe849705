@@ -1,0 +1,21 @@
+package com.itheima01;
+
+import java.io.FileWriter;
+
+/*
+ * flush():刷新缓冲区
+ * close():先刷新缓冲区，然后通知系统释放资源，关闭流
+ */
+
+public class FileWriterDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		FileWriter fWriter = new FileWriter("\\src\\com\\itheima01\\test.txt");//
+
+		fWriter.close();
+
+	}
+
+}

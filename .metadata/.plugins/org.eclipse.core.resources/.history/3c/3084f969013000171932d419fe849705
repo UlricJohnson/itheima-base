@@ -1,0 +1,56 @@
+package com.itheima.q2;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Phone> arrayList = new ArrayList<>();
+		Scanner scanner = new Scanner(System.in);
+
+		Phone mzPhone = new Phone("MeiZu", 800);
+		Phone miPhone = new Phone("Mi", 750);
+		Phone iPhone = new Phone("iPhone", 5000);
+		Phone hwPhone = new Phone("HuaWei", 1000);
+
+		arrayList.add(mzPhone);
+		arrayList.add(miPhone);
+		arrayList.add(iPhone);
+		arrayList.add(hwPhone);
+
+		// 获取集合中元素品牌为 ”M” 开头的所有手机价格总和, 并在控制台打印输出;
+		System.out.println("品牌为 ”M” 开头的所有手机有:");
+		int sumOfPrice = 0;
+		for (int i = 0; i < arrayList.size(); i++) {
+			Phone phone = arrayList.get(i);
+			if (phone.getBrand().startsWith("M")) {
+				System.out.println("品牌是：" + phone.getBrand() + "  价格为：" + phone.getPrice());
+				sumOfPrice += phone.getPrice();
+			}
+		}
+		System.out.println("品牌为 ”M” 开头的所有手机价格总和是" + sumOfPrice);
+
+		// 输入一个数，并把Mi的价格修改为这个数
+		System.out.println("请输入一个整数(价格):");
+		int tempPrice = scanner.nextInt();
+		miPhone.setPrice(tempPrice);
+
+		// 把价格小于tempPrice的手机删除并统计个数
+		int count = 0;
+		for (int i = 0; i < arrayList.size(); i++) {
+			Phone phone = arrayList.get(i);
+			if (phone.getPrice() < tempPrice) {
+				arrayList.remove(i);
+				i--;
+				count++;
+			}
+		}
+
+		System.out.println("删除的元素的个数:" + count);
+		System.out.println(arrayList);
+
+	}
+
+}

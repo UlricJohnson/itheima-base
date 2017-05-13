@@ -1,0 +1,40 @@
+package com.itheima.test04;
+
+public class StudensTool {
+
+	public StudensTool() {
+		// TODO Auto-generated constructor stub
+	}
+
+	// 遍历打印学生信息
+	public void listStudents(Student[] arr) {
+
+	}
+
+	// 获取学生成绩的最高分
+	public int getMaxScore(Student[] arr) {
+		int max = arr[0].getScore();
+
+		return max;
+	}
+
+	// 获取成绩最高的学员
+	public Student getMaxStudent(Student[] arr) {
+
+		return arr[0];
+	}
+
+	// 获取学生成绩的平均值
+	public int getAverageScore(Student[] arr) {
+		int avrg = 0;
+
+		return avrg;
+	}
+
+	// 获取不及格的学员数量
+	public int getCount(Student[] arr) {
+		int numOfFailed = 0;
+		return numOfFailed;
+	}
+
+}

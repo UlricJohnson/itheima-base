@@ -1,0 +1,23 @@
+package com.itheima01;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+/*
+ * 相对路径和绝对路径
+ */
+
+public class FileWriterDemo2 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		FileWriter fWriter = new FileWriter(".\\src\\test.txt");// 前面要加一点
+
+		fWriter.write("HelloWorld");
+
+		fWriter.close();
+
+	}
+
+}
