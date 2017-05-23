@@ -1,0 +1,12 @@
+package com.itheima.test6;
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		Person p1 = new BasisClassTeacher("张三老师", 35);
+		Person p2 = new EmploymentObtainClassTeacher("李四老师", 45);
+		Person p3 = new BasisClassStudent("王五学生", 20);
+		Person p4 = new EmploymentObtainClassStudent("马六学生", 25);
+	}
+
+}

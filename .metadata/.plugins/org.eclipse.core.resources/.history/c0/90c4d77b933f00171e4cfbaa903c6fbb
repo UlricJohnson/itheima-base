@@ -1,0 +1,15 @@
+package com.itheima;
+
+import java.security.AllPermission;
+import java.util.ArrayList;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+		String arr[] = { "abc", "bad", "abc", "aab", "bad", "cef", "jhi" };
+
+		ArrayList<String> aList = new ArrayList<String>();
+
+	}
+
+}

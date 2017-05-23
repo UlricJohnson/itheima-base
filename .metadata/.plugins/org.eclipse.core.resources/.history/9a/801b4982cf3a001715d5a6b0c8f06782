@@ -1,0 +1,15 @@
+package day03_homework;
+
+public class NewPhone extends Phone implements Play {
+
+	public NewPhone() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void playGame() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

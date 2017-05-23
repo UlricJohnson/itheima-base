@@ -1,0 +1,31 @@
+package com.itheima;
+
+/**
+ * 7.编写一个泛型方法求两个数之和
+ * 
+ * 要求： 两个数可以传入int、long、float、double类型，但要对传入的值做一定的限定，如必须是数字。
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test7 {
+
+	public static void main(String[] args) {
+		
+	}
+
+	// 此处泛型为T，T类型的上限为Number
+	// public static <T extends Number> T add(T t1, T t2) {
+	// if(t1 instanceof Integer){
+	// return T.valueOf(t1.intValue()+t2.intValue());
+	// }
+	// return t1;
+	// }
+
+	// 答案
+	public static <T extends Number> double sum(T a, T b) {// 传入的4种类型都可以隐式转换为double类型
+		return a.doubleValue() + b.doubleValue();
+	}
+
+}

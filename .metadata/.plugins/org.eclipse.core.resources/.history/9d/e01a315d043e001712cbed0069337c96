@@ -1,0 +1,15 @@
+package com.itheima;
+
+import java.util.Arrays;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		System.out.println(Arrays.toString("192.168.105.27".split("\\.")));
+
+		System.out.println(Arrays.toString("18 22 40 65".split(" ")));
+
+		System.out.println(Arrays.toString("12-25-36-98".split("-")));
+	}
+
+}

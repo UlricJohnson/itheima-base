@@ -1,0 +1,26 @@
+package com.itheima;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Collection<String> list = new ArrayList<>();
+		
+		list.add("a");
+		list.add("a");
+		list.add("a");
+		list.add("b");
+		list.add("b");
+		list.add("c");
+		list.add("d");
+		list.add("d");
+		list.add("d");
+		list.add("d");
+		list.add("d");
+	}
+	
+	public static <E> int frequency(Collection<? extends Collection> e){
+		return -1;
+	}
+}

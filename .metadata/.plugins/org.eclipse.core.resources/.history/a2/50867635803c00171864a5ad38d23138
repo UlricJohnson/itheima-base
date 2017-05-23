@@ -1,0 +1,17 @@
+package test.main;
+
+public class FatherMain {
+	protected int i;
+
+	protected void func() {
+		System.out.println("func()");
+	}
+
+	public FatherMain() {
+	}
+
+	public FatherMain(int i) {
+		super();
+		this.i = i;
+	}
+}

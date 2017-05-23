@@ -1,0 +1,5 @@
+package com.itheima.test2;
+
+public interface TopGradeFunc {
+	public void autoPark();
+}

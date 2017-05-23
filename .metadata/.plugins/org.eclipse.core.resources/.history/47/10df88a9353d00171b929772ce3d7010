@@ -1,0 +1,13 @@
+package com.itheima.test6;
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		try {
+			
+		} catch (NoAgeException nae) {
+			// TODO: handle exception
+		}
+	}
+
+}

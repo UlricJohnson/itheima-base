@@ -1,0 +1,31 @@
+package com.itheima;
+
+public class Book {
+	private String bookNumber;
+	private String bookName;
+	private String author;
+	private String press;
+	private double price;
+	private String publicationDate;
+
+	/**
+	 * 将bookNumber模拟为国际标准书号，当且仅当bookNumber相同时，视为同一本书
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Book other = (Book) obj;
+		if (bookNumber == null) {
+			if (other.bookNumber != null)
+				return false;
+		} else if (!bookNumber.equals(other.bookNumber))
+			return false;
+		return true;
+	}
+
+}

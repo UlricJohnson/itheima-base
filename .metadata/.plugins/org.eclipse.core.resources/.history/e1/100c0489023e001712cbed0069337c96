@@ -1,0 +1,9 @@
+package com.itheima;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		String phoneNumRegex="1[34578]\\d{9}";
+	}
+
+}

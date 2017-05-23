@@ -1,0 +1,9 @@
+package com.itheima.test2;
+
+public class TopGradeAudi extends CommonAudi implements TopGradeFunc {
+
+	public TopGradeAudi() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

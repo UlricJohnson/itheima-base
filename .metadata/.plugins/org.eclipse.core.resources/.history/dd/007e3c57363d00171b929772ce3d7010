@@ -1,0 +1,14 @@
+package com.itheima.test6;
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		try {
+			new Person("张三", -5);
+			
+		} catch (NoAgeException nae) {
+			
+		}
+	}
+
+}

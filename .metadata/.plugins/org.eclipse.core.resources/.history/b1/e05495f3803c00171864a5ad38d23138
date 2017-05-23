@@ -1,0 +1,13 @@
+package test.main;
+
+public class ChildMain extends FatherMain {
+
+	public ChildMain() {
+	}
+
+	public void test() {
+		System.out.println("this.i: " + this.i);
+		System.out.println("super.i: " + super.i);
+	}
+
+}

@@ -1,0 +1,23 @@
+package library_management_system;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	private static void clearConsole(){
+	    try{
+	        String os = System.getProperty("os.name");
+
+	        if (os.contains("Windows")){
+	            Runtime.getRuntime().exec("cls");
+	        }else{
+	            Runtime.getRuntime().exec("clear");
+	        }
+	    }catch (Exception exception){
+	        System.out.println();
+	    }
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.itheima.test2;
+
+public class CommonAudi {
+
+	public CommonAudi() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

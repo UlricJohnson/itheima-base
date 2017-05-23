@@ -1,0 +1,34 @@
+package com.itheima;
+
+/**
+ * 8. 分别使用String和StringBuilder对字符串做100000次拼接,
+ * 计算String拼接100000次花费时间与StringBuilder拼接100000次所花费时间并打印
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		String string = "";
+		StringBuilder sBuilder = new StringBuilder();
+		int times = 100000;
+
+		// 计算String类拼接
+		long moment1 = System.currentTimeMillis();
+		for (int i = 0; i < times; i++) {
+			string += " ";
+		}
+		System.out.println("String对象拼接" + times + "次空格字符串所需时间：" + (System.currentTimeMillis() - moment1) + "毫秒");
+
+		// 计算StringBuilder类拼接
+		long moment2 = System.currentTimeMillis();
+		for (int i = 0; i < times; i++) {
+			sBuilder.append(" ");
+		}
+		System.out.println("StringBuilder对象拼接" + times + "次空格字符串所需时间：" + (System.currentTimeMillis() - moment2) + "毫秒");
+
+	}
+
+}

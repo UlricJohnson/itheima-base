@@ -1,0 +1,9 @@
+package test.main;
+
+public class ChildMain extends FatherMain {
+
+	public ChildMain() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

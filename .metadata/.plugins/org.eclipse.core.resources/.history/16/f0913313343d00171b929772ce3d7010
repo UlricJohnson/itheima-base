@@ -1,0 +1,30 @@
+package com.itheima.test4;
+
+public class StringCanNotEmptyException extends Exception {
+
+	public StringCanNotEmptyException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public StringCanNotEmptyException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public StringCanNotEmptyException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public StringCanNotEmptyException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public StringCanNotEmptyException(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+}

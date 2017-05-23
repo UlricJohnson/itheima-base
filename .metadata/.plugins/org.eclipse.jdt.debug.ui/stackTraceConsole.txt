@@ -1,0 +1,3 @@
+(1)定义一个Person类，有成员变量：姓名name和年龄age
+	(2)定义一个方法，方法中创建多个Person对象，并将多个Person对象添加到ArrayList集合中。
+	(3)分别使用迭代器和增强For遍历ArrayList集合，将集合中的Person对象输出到控制器台。要求控制台输出的Person对象能看到姓名和年龄(不能将姓名和年龄拼串输出)。

@@ -1,0 +1,12 @@
+package com.itheima.test4;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		Student student = new Student("张三", 20);
+		StudentCanPlayBasketball stuPlayBas = new StudentCanPlayBasketball("李四", 21);
+		
+		
+	}
+
+}

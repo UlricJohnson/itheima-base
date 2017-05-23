@@ -1,0 +1,29 @@
+package com.itheima;
+
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		ArrayList<Person> aList = addToArrList();
+		
+		//#1使用迭代器输出
+		
+	}
+
+	// 添加3个Person元素到新集合并返回该集合
+	public static ArrayList<Person> addToArrList() {
+		ArrayList<Person> aList = new ArrayList<Person>();
+		aList.add(new Person("张三", 35));
+		aList.add(new Person("李四", 24));
+		aList.add(new Person("王五", 43));
+		return aList;
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.itheima.test02;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/*
+ * SimpleDateFormat()
+ *  使用默认的格式创建日期格式化对象
+ * SimpleDateFormat(String pattern) 
+ * 	根据指定的日期格式创建格式化对象
+ */
+public class SimpleDateFormatDemo {
+	public static void main(String[] args) {
+		// 获得日期对象
+		Date d = new Date();
+		// 创建日期格式化对象
+		SimpleDateFormat sdf = new SimpleDateFormat();
+//		 SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+		// applyPattern(String pattern) 指定日期格式
+		sdf.applyPattern("HH:mm:ss");
+		// 日期-->字符串
+		// 2017-05-21 09:56:00
+		// 2017/05/21 09:56:00
+		// 2017年05月21日 
+		// 调用format方法将日期对象转换为字符串
+		String dateStr = sdf.format(d);
+		System.out.println(dateStr);
+	}
+}

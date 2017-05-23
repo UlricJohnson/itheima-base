@@ -1,0 +1,20 @@
+package com.itheima.test3;
+
+public class Manager extends Employee {
+
+	public Manager() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Manager(String name, String jobNumber, double salary) {
+		super(name, jobNumber, salary);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void work() {
+		// TODO Auto-generated method stub
+		System.out.println("姓名："+name+", 工号："+jobNumber+", 工资："+salary+", 奖金：");
+	}
+
+}

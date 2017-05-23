@@ -1,0 +1,123 @@
+package com.itheima;
+
+public class Book {
+	private String bookNumber;
+	private String bookName;
+	private String author;
+	private String press;
+	private double price;
+	private String publicationDate;
+
+	/**
+	 * 将bookNumber模拟为国际标准书号，当且仅当bookNumber相同时，视为同一本书
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Book other = (Book) obj;
+		if (bookNumber == null) {
+			if (other.bookNumber != null)
+				return false;
+		} else if (!bookNumber.equals(other.bookNumber))
+			return false;
+		return true;
+	}
+
+	/****** get set ***********/
+
+	/**
+	 * @return the bookNumber
+	 */
+	public String getBookNumber() {
+		return bookNumber;
+	}
+
+	/**
+	 * @param bookNumber
+	 *            the bookNumber to set
+	 */
+	public void setBookNumber(String bookNumber) {
+		this.bookNumber = bookNumber;
+	}
+
+	/**
+	 * @return the bookName
+	 */
+	public String getBookName() {
+		return bookName;
+	}
+
+	/**
+	 * @param bookName
+	 *            the bookName to set
+	 */
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
+
+	/**
+	 * @return the author
+	 */
+	public String getAuthor() {
+		return author;
+	}
+
+	/**
+	 * @param author
+	 *            the author to set
+	 */
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	/**
+	 * @return the press
+	 */
+	public String getPress() {
+		return press;
+	}
+
+	/**
+	 * @param press
+	 *            the press to set
+	 */
+	public void setPress(String press) {
+		this.press = press;
+	}
+
+	/**
+	 * @return the price
+	 */
+	public double getPrice() {
+		return price;
+	}
+
+	/**
+	 * @param price
+	 *            the price to set
+	 */
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	/**
+	 * @return the publicationDate
+	 */
+	public String getPublicationDate() {
+		return publicationDate;
+	}
+
+	/**
+	 * @param publicationDate
+	 *            the publicationDate to set
+	 */
+	public void setPublicationDate(String publicationDate) {
+		this.publicationDate = publicationDate;
+	}
+
+}

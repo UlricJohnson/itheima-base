@@ -1,0 +1,22 @@
+package com.itheima;
+
+/**
+ * 7.编写一个泛型方法求两个数之和
+ * 
+ * 要求： 两个数可以传入int、long、float、double类型，但要对传入的值做一定的限定，如必须是数字。
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test7 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static <T extends Number> T add(T t1, T t2) {
+		return t1;
+	}
+
+}

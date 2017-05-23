@@ -1,0 +1,9 @@
+package com.itheima.test5;
+
+public class Animal {
+
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

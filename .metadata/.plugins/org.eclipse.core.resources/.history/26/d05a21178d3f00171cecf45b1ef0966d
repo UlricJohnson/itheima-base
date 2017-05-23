@@ -1,0 +1,34 @@
+package com.itheima;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+/**
+ * 使用两种方式打印集合中的元素
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test2 {
+	public static void main(String[] args) {
+		Collection<String> list = new ArrayList<>();
+		list.add("b");
+		list.add("f");
+		list.add("e");
+		list.add("c");
+		list.add("a");
+		list.add("d");
+		
+		//把list强转为ArrayList
+		ArrayList<String> aList=(ArrayList<String>)list;
+
+		// #1 for循环
+		for (int i = 0; i < aList.size(); i++) {
+			System.out.print(aList.get(i));
+		}
+		
+		// #2 foreach
+		// #3 直接输出
+	}
+}

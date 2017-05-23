@@ -1,0 +1,20 @@
+package com.itheima.test6;
+
+public class BasisClassTeacher extends Teacher {
+
+	public BasisClassTeacher() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public BasisClassTeacher(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void teach() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

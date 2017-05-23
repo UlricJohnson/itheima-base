@@ -1,0 +1,14 @@
+package com.itheima;
+
+public class Test7 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void print(int row, int col) {
+		for (int i = col - 1; i >= 0; i--) {// 打印前面的空格
+
+		}
+	}
+}

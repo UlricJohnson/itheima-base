@@ -1,0 +1,22 @@
+package com.itheima.test6;
+
+import com.itheima.test4.Student;
+
+/**
+ * 
+ * @author Ulric
+ *
+ */
+
+public class BasisClassStudent extends Student {
+
+	public BasisClassStudent() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public BasisClassStudent(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.itheima.test6;
+
+public abstract class Employee {
+	private String name;
+	private String jobNumber;
+	private double salary;
+
+	public Employee() {
+	}
+
+	public abstract void work();
+
+	public abstract void meet();
+
+}

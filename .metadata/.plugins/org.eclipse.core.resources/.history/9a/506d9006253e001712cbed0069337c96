@@ -1,0 +1,47 @@
+package com.itheima.test03;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class CalendarDemo {
+	public static void main(String[] args) {
+//		test01();
+		// 获得日历对象
+		Calendar c = Calendar.getInstance();
+		// 设置指定日历字段的值
+		/*c.set(Calendar.YEAR, 1970);
+		c.set(Calendar.MONTH, 0);
+		c.set(Calendar.DAY_OF_MONTH, 1);*/
+		// 该行代码等价上面三行
+		// c.set(1970, 0, 1);
+		
+		// 将指定日历字段的值在当前的基础上增加或减少一个偏移量
+//		c.add(Calendar.DATE,1);
+//		int day = c.get(Calendar.DAY_OF_WEEK);
+//		System.out.println(weekStr(day));
+		// System.out.println(c.getTimeInMillis() / 1000 / 3600);
+		
+		System.out.println(c.get(Calendar.DAY_OF_YEAR));
+	}
+
+	public static String weekStr(int day) {
+		String[] weeks = {"","星期日","星期一","星期二","星期三","星期四","星期五","星期六"};
+		return weeks[day];
+	}
+	
+	private static void test01() {
+		// 获得日历对象
+		Calendar c = Calendar.getInstance();
+		System.out.println(c);
+		// 调用成员方法
+		// 通过日历对象获得日期对象
+		Date d = c.getTime();
+		System.out.println(d.getTime());
+		
+		// 获得年月日
+		int year = c.get(Calendar.YEAR);
+		int month = c.get(Calendar.MONTH);
+		int day = c.get(Calendar.DAY_OF_MONTH);
+		System.out.println(year+"="+(month+1)+"="+day);
+	}
+}

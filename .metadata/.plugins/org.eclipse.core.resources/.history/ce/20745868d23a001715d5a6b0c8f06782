@@ -1,0 +1,13 @@
+package com.itheima.test3;
+
+public class Employee {
+	private String name;
+	private String jobNumber;
+	private double salary;
+	
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

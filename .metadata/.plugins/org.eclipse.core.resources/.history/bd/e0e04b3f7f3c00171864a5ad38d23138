@@ -1,0 +1,9 @@
+package com.itheima.testprotected;
+
+public class TestProtected {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

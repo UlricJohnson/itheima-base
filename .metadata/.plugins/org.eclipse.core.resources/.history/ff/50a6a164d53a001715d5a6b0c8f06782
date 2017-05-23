@@ -1,0 +1,27 @@
+package com.itheima.test4;
+
+/**
+ * 会打篮球的学生类
+ * 
+ * @author Ulric
+ *
+ */
+
+public class StudentCanPlayBasketball extends Student implements Sport {
+
+	public StudentCanPlayBasketball() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public StudentCanPlayBasketball(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void playBasketball() {
+		// TODO Auto-generated method stub
+		System.out.println("该学生会打篮球");
+	}
+
+}

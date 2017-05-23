@@ -1,0 +1,26 @@
+package com.itheima;
+
+/**
+ * 8.有一分数序列：2/1，3/2，5/3，8/5，13/8，21/13...求出这个数列的前20项之和。
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		System.out.println(getFBNQNumber(1, 8));
+	}
+
+	// 获取从begin开始的第n个斐波那契数列数
+	public static int getFBNQNumber(int begin, int n) {
+		if (begin == n) {
+			return begin;
+		} else if (begin == n - 1) {
+			return n;
+		}
+		return getFBNQNumber(begin, n - 1) + getFBNQNumber(begin, n - 2);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.itheima;
+
+import java.util.ArrayList;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static <T> void addArrayToList(T[] arr, ArrayList<T> aList) {
+		for (T t : arr) {
+			aList.add(t);
+		}
+	}
+}

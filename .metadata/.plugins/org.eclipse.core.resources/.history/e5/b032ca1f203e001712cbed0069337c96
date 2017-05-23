@@ -1,0 +1,19 @@
+package com.itheima.test02;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class SimpleDateFormatDemo2 {
+	public static void main(String[] args) throws ParseException {
+		// 日期字符串
+		String dateStr = "2017-05-21 09:09:09";
+		// 日期字符串 ==> 日期对象
+		// 创建日期格式化对象
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ");
+		// 调用方法将字符串转换为日期对象
+		Date d = sdf.parse(dateStr);
+		
+		System.out.println(d);
+	}
+}

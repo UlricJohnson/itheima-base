@@ -1,0 +1,18 @@
+package com.itheima;
+
+/**
+ * (1)编写一个泛型方法，实现指定位置数组元素的交换 
+ * 
+ * (2)编写一个泛型方法，接收一个任意数组，并反转数组中的所有元素
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

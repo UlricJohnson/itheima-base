@@ -1,0 +1,19 @@
+package com.itheima;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static char charAt(String str, int index) throws Exception{
+		if(str==null){
+			throw new Exception("字符串不能为null");
+		}else if(str.equals("")){
+			throw new Exception("字符串不能为空");
+		}else{
+		}
+		return str.charAt(index);
+	}
+
+}

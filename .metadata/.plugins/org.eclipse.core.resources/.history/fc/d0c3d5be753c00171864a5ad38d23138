@@ -1,0 +1,28 @@
+package com.itheima.test9;
+
+public class Test9 {
+
+	public static void main(String[] args) {
+		new Smart() {
+
+			@Override
+			public void autoOpenDoor() {
+				System.out.println("autoOpenDoor()");
+
+			}
+
+			@Override
+			public void autoDrive() {
+				System.out.println("autoDrive()");
+
+			}
+
+			@Override
+			public void autoCloseDoor() {
+				System.out.println("autoCloseDoor()");
+
+			}
+		};
+	}
+
+}

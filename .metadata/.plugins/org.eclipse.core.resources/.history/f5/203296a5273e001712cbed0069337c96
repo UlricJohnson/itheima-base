@@ -1,0 +1,17 @@
+package com.itheima;
+
+/**
+ * 8. 分别使用String和StringBuilder对字符串做100000次拼接,
+ * 计算String拼接100000次花费时间与StringBuilder拼接100000次所花费时间并打印
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

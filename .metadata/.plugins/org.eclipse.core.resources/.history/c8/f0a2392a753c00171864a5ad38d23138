@@ -1,0 +1,5 @@
+package com.itheima.test8;
+
+public interface Player {
+
+}

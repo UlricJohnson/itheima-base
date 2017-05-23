@@ -1,0 +1,33 @@
+package com.itheima;
+
+import java.util.ArrayList;
+
+/**
+ * (1)定义一个Person类，有成员变量：姓名name和年龄age
+ * 
+ * (2)定义一个方法，方法中创建多个Person对象，并将多个Person对象添加到ArrayList集合中。
+ * (3)分别使用迭代器和增强For遍历ArrayList集合，将集合中的Person对象输出到控制器台。要求控制台输出的Person对象能看到姓名和年龄(不能将姓名和年龄拼串输出)。
+ * 
+ * @author Ulric
+ *
+ */
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		ArrayList<Person> aList = addToArrList();
+
+		// #1使用迭代器输出
+
+	}
+
+	// 添加3个Person元素到新集合并返回该集合
+	public static ArrayList<Person> addToArrList() {
+		ArrayList<Person> aList = new ArrayList<Person>();
+		aList.add(new Person("张三", 35));
+		aList.add(new Person("李四", 24));
+		aList.add(new Person("王五", 43));
+		return aList;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.itheima;
+
+
+public class Test8<T> {
+	public static <T> void show(T[] arr){
+		for (T t : arr) {
+			System.out.println(t);
+		}
+	}
+	
+	public <T> void show2(T[] arr){
+		for (T t : arr) {
+			System.out.println(t);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package test.main;
+
+public class ChildMain extends FatherMain {
+
+	public ChildMain() {
+	}
+
+	public void test() {
+		System.out.println(i);
+	}
+
+}

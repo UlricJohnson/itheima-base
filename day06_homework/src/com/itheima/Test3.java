@@ -1,0 +1,10 @@
+package com.itheima;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		System.out.println("Hello12345World6789012".replaceAll("\\d", "#"));
+		System.out.println("Hello12345World6789012".replaceAll("\\d+", "#"));
+	}
+
+}

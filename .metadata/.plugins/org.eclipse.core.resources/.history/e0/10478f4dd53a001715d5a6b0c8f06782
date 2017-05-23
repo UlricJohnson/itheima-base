@@ -1,0 +1,14 @@
+package com.itheima.test4;
+
+public class StudentCanPlayBasketball extends Student implements Sport {
+
+	public StudentCanPlayBasketball() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public StudentCanPlayBasketball(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+}

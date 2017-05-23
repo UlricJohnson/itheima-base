@@ -1,0 +1,12 @@
+package com.itheima;
+
+import java.util.Date;
+
+public class Test7 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

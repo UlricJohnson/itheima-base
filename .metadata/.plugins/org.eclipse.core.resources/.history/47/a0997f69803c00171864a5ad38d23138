@@ -1,0 +1,8 @@
+package test.main;
+
+public class ChildMain extends FatherMain {
+
+	public ChildMain() {
+	}
+
+}

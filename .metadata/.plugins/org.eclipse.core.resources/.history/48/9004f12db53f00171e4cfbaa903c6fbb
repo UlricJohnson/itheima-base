@@ -1,0 +1,39 @@
+package com.itheima;
+
+import java.util.HashSet;
+
+/*
+ * 求一个字符串"aiodjl;hriWFUADJSVUEHiowfjnivowe"中一共有几个不重复的字母,区分大小写,如a,A算两个字符
+ * 
+ * 将字符串拆分成一个个单个字符
+ * 判断字符是否为字母
+ * 如果是字母,放到一个HashSet集合中
+ * 查看集合长度
+ */
+public class Test {
+
+	public static void main(String[] args) {
+
+		String s = "aiodjl;hriWFUADJSVUEHiowfjnivowe";
+
+		// 定义不包含重复元素的HashSet集合
+		HashSet<Character> set = new HashSet<Character>();
+
+		// 将字符串拆分成一个个单个字符
+		char[] charArray = s.toCharArray();
+
+		// 使用增强for循环遍历数组
+		for (char c : charArray) {
+
+			// 判断字符是否为字母
+			if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')) {
+
+				// 如果是字母,放到一个HashSet集合中
+				set.add(c);
+			}
+		}
+
+		// 查看集合长度
+		System.out.println("在该字符串中,一共存在不重复的字母" + set.size() + "个");
+	}
+}

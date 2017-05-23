@@ -1,0 +1,18 @@
+package com.itheima;
+
+import java.util.ArrayList;
+
+public class Test6 {
+
+	public static void main(String[] args) {
+
+	}
+
+	// 添加n个T类型的元素到新集合并返回该集合
+	public static <T> ArrayList<T> addToArrList(T t, int n) {
+		ArrayList<T> aList = new ArrayList<T>();
+
+		return aList;
+	}
+
+}

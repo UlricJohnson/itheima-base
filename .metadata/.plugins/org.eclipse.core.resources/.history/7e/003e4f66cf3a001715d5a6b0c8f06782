@@ -1,0 +1,9 @@
+package day03_homework;
+
+public class NewPhone extends Phone {
+
+	public NewPhone() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

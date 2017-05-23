@@ -1,0 +1,17 @@
+package day03_homework;
+
+public class Phone {
+
+	public Phone() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void call(){
+		System.out.println("call()");
+	}
+	
+	public void sendMessage(){
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.itheima;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+		String str="  anglebaby  	女 	 18	  515151511  ";
+	}
+
+}
